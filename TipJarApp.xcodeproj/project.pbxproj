@@ -13,6 +13,9 @@
 		99A7667A1AFD770E001BB1FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A766791AFD770E001BB1FF /* Images.xcassets */; };
 		99A7667D1AFD770E001BB1FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99A7667B1AFD770E001BB1FF /* LaunchScreen.xib */; };
 		99A766891AFD770E001BB1FF /* TipJarAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A766881AFD770E001BB1FF /* TipJarAppTests.swift */; };
+		99A766941AFD7A3C001BB1FF /* GloriaHallelujah.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99A766931AFD7A3C001BB1FF /* GloriaHallelujah.ttf */; };
+		99A766961AFD8D71001BB1FF /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A766951AFD8D71001BB1FF /* ResultsViewController.swift */; };
+		99A766981AFDB3FB001BB1FF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A766971AFDB3FB001BB1FF /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		99A766821AFD770E001BB1FF /* TipJarAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipJarAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A766871AFD770E001BB1FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99A766881AFD770E001BB1FF /* TipJarAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipJarAppTests.swift; sourceTree = "<group>"; };
+		99A766931AFD7A3C001BB1FF /* GloriaHallelujah.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GloriaHallelujah.ttf; sourceTree = "<group>"; };
+		99A766951AFD8D71001BB1FF /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		99A766971AFDB3FB001BB1FF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +83,12 @@
 		99A7666F1AFD770E001BB1FF /* TipJarApp */ = {
 			isa = PBXGroup;
 			children = (
+				99A766921AFD7A25001BB1FF /* Fonts */,
 				99A766721AFD770E001BB1FF /* AppDelegate.swift */,
 				99A766741AFD770E001BB1FF /* ViewController.swift */,
 				99A766761AFD770E001BB1FF /* Main.storyboard */,
+				99A766971AFDB3FB001BB1FF /* SettingsViewController.swift */,
+				99A766951AFD8D71001BB1FF /* ResultsViewController.swift */,
 				99A766791AFD770E001BB1FF /* Images.xcassets */,
 				99A7667B1AFD770E001BB1FF /* LaunchScreen.xib */,
 				99A766701AFD770E001BB1FF /* Supporting Files */,
@@ -110,6 +119,14 @@
 				99A766871AFD770E001BB1FF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99A766921AFD7A25001BB1FF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				99A766931AFD7A3C001BB1FF /* GloriaHallelujah.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99A766941AFD7A3C001BB1FF /* GloriaHallelujah.ttf in Resources */,
 				99A766781AFD770E001BB1FF /* Main.storyboard in Resources */,
 				99A7667D1AFD770E001BB1FF /* LaunchScreen.xib in Resources */,
 				99A7667A1AFD770E001BB1FF /* Images.xcassets in Resources */,
@@ -214,6 +232,8 @@
 			files = (
 				99A766751AFD770E001BB1FF /* ViewController.swift in Sources */,
 				99A766731AFD770E001BB1FF /* AppDelegate.swift in Sources */,
+				99A766961AFD8D71001BB1FF /* ResultsViewController.swift in Sources */,
+				99A766981AFDB3FB001BB1FF /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
